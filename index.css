@@ -21,6 +21,11 @@ header {
     padding: 10px;
 }
 
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 
 #logo {
     font-family: 'Fira Sans', sans-serif;
