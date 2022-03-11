@@ -1,0 +1,56 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+
+#logo {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(70, 133, 206);
+  }
+  
+a:link {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: black;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 750;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(70, 133, 206);
+}
+
+p {
+    color: black;
+}
+
+img {
+    width:100%;
+}
