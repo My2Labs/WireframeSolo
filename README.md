@@ -1,1 +1,1 @@
-Wireframe Solo Project for Websites: 3 by Sharron Hemenway.
+Implement Wireframe - Solo project for Websites: 3 by Sharron Hemenway.
