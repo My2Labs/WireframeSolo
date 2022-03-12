@@ -129,7 +129,7 @@ p {
 
 h1 {
     font-family: 'Ropa Sans', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 100;
     color: hsl(185, 47%, 98%);
     position: absolute;
@@ -150,10 +150,10 @@ h1 {
     align-items: stretch;
     border-radius: 20px;
     padding: 10px;
-    position: absolute;
+    position:absolute;
     top: 110%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 90%);
 }
 
 h2 {
