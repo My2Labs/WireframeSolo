@@ -143,7 +143,7 @@ h1 {
 
 .herobutton {
     font-family: 'Montserrat', sans-serif;
-    color: hsl(185, 47%, 98%);
+    color: white;
     background-color: hsl(185, 49%, 38%);
     width: 120px;
     text-align: center;
@@ -197,7 +197,7 @@ h2 {
 
 p > a:link {
     font-family: 'Ropa Sans', sans-serif;
-    color: hsl(185, 47%, 98%);
+    color: white;
     background-color: hsl(185, 49%, 38%);
     width: 120px;
     height: 20px;
