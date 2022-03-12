@@ -101,9 +101,13 @@ p {
     color: black;
 }
 
-img {
+.heroimg {
     width:100%;
+    filter: contrast(200%);
+    filter: blur(2px);
+    filter:hue-rotate(180deg)
 }
+
 
 .maingrid {
     display: grid; 
@@ -132,13 +136,15 @@ h1 {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: brightness(100)
+
 }
 
 
 .herobutton {
     font-family: 'Montserrat', sans-serif;
     color: hsl(185, 47%, 98%);
-    background-color: hsl(185, 47%, 48%);
+    background-color: hsl(185, 49%, 38%);
     width: 120px;
     text-align: center;
     align-items: stretch;
@@ -185,14 +191,14 @@ h2 {
 
 .featuredesc {
     font-family: 'Ropa Sans', sans-serif;
-    color: gray;
+    color: rgb(94, 93, 93);
     text-transform: uppercase;
 }
 
 p > a:link {
     font-family: 'Ropa Sans', sans-serif;
     color: hsl(185, 47%, 98%);
-    background-color: hsl(185, 47%, 48%);
+    background-color: hsl(185, 49%, 38%);
     width: 120px;
     height: 20px;
     text-align: center;
