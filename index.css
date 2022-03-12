@@ -9,7 +9,6 @@ html {
     min-height: 100vh;
 }
 
-
 nav {
     display: flex;
     flex-flow: row nowrap;
@@ -51,19 +50,6 @@ nav {
     margin-bottom: 0;
     flex-basis: content;
 }
-
-.flexlinkslogo {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: flex-start;
-    background-color: white;
-    color: black;
-    margin-bottom: 0;
-    flex-basis: 10%;
-}
-
-
 
 ul {
     text-decoration: none;
@@ -175,15 +161,6 @@ a:visited + .herobutton {
     display: flex;
 }
 
-@media (min-width: 375px) and (max-width: 900px) {
-    .herobutton {
-        display: none;
-    }
-    .flexheading {
-        display: none;
-    }
-}
-
 h2 {
     font-family: 'Ropa Sans', sans-serif;
     color: #052D40;
@@ -246,4 +223,13 @@ p > a:link, a:visited {
     align-content: space-between;
     font-family: 'Ropa Sans', sans-serif;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .herobutton {
+        display:contents;
+    }
+    .flexheading {
+        display: none;
+    }
 }
