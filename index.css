@@ -99,3 +99,77 @@ p {
 img {
     width:100%;
 }
+
+.maingrid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 20px 20px;
+    padding: 10px;
+    grid-template-areas: 
+      ". ."
+      ". ."
+      ". ."
+      ". ."
+      ". ."
+      ". ."; 
+    justify-content: start; 
+    align-content: stretch; 
+    justify-items: start; 
+    align-items: stretch; 
+  }
+
+.headergrid {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+}
+
+h2 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 40px;
+    word-wrap:inherit;
+}
+
+.features-1 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 900;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+}
+
+.features-2 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 900;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.features-3 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 900;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+}
+
+.features-4 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 900;
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.featuredesc {
+    font-family: 'Ropa Sans', sans-serif;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.featurebutton {
+    font-family: 'Ropa Sans', sans-serif;
+    color: hsl(185, 47%, 98%);
+    background-color: hsl(185, 47%, 48%);
+    width: 120px;
+    height: 30px
+    text-align: center;
+}
+
