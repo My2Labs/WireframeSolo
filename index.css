@@ -127,8 +127,7 @@ h1 {
     font-family: 'Ropa Sans', sans-serif;
     font-size: 2em;
     font-weight: 100;
-    color: white;
-    opacity: 70%;
+    color: hsl(185, 47%, 98%);
     position: absolute;
     top: 100%;
     left: 50%;
