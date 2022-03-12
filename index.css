@@ -227,9 +227,21 @@ p > a:link, a:visited {
 
 @media screen and (max-width: 900px) {
     .herobutton {
-        display:contents;
+        display: none;
     }
     .flexheading {
         display: none;
+    }
+    nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: auto;
+        overflow: scroll;
+    }
+    .flexdiv {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-basis: auto;
+        overflow: scroll;
     }
 }
