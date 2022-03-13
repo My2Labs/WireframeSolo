@@ -113,7 +113,7 @@ p {
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     gap: 1em 3em;
-    padding: 10px;
+    padding: 20px;
     justify-content: start; 
     align-content: stretch; 
     justify-items: start; 
