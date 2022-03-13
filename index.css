@@ -203,8 +203,19 @@ h2 {
 
 p > a:link, a:visited {
     font-family: 'Montserrat', sans-serif;
-    color: gray;
+    color: white;
     background-color: hsl(185, 50%, 32%);
+    width: 120px;
+    text-align: center;
+    align-items: stretch;
+    border-radius: 20px;
+    padding: 10px;
+    height: 20px;
+}
+
+ul > a:visited {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
     width: 120px;
     text-align: center;
     align-items: stretch;
