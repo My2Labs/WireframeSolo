@@ -213,7 +213,7 @@ p > a:link, a:visited {
     height: 20px;
 }
 
-ul > a:visited {
+ul > li > a:visited {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     width: 120px;
