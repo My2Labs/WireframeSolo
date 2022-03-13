@@ -1,7 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Lexend+Zetta:wght@800&family=Montserrat:wght@200&family=Ropa+Sans&display=swap" rel="stylesheet">
-
 html {
     margin: 0px;
     padding: 0px;
@@ -127,22 +123,22 @@ h1 {
 
 }
 
+
 .herobutton {
     font-family: 'Montserrat', sans-serif;
     color: white;
     background-color: hsl(185, 50%, 32%);
     width: 120px;
     text-align: center;
-    align-items: stretch;
     border-radius: 20px;
     padding: 10px;
     position:absolute;
     top: 110%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -5%);
 }
 
-a:visited + .herobutton {
+a:visited {
     font-family: 'Montserrat', sans-serif;
     color: white;
     background-color: hsl(185, 50%, 32%);
@@ -158,7 +154,8 @@ a:visited + .herobutton {
 }
 
 .flexdiv {
-    display: flex;
+    display: block;
+    text-align: center;
 }
 
 h2 {
@@ -225,13 +222,7 @@ p > a:link, a:visited {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 900px) {
-    .herobutton {
-        display: none;
-    }
-    .flexheading {
-        display: none;
-    }
+@media screen and (max-width: 840px) {
     nav {
         flex-direction: column;
         flex-wrap: wrap;
@@ -243,5 +234,34 @@ p > a:link, a:visited {
         flex-wrap: nowrap;
         flex-basis: auto;
         overflow: scroll;
+    }
+    .headergrid {
+        grid-row: 1 / span 1;
+        grid-column: 1 / span 2;
+    }
+    h1 {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 1em;
+        font-weight: 100;
+        color: black;
+        text-align: center;
+        position: relative;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        filter: brightness(100)
+    }
+    .herobutton {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: hsl(185, 50%, 32%);
+        width: 120px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        position:relative;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
