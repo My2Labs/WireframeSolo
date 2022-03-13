@@ -155,9 +155,6 @@ a:visited {
     border-radius: 20px;
     padding: 10px;
     position:absolute;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, 90%);
 }
 
 .flexdiv {
@@ -206,7 +203,7 @@ h2 {
 
 p > a:link, a:visited {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: gray;
     background-color: hsl(185, 50%, 32%);
     width: 120px;
     text-align: center;
