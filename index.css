@@ -25,15 +25,6 @@ nav {
     margin-bottom: 0;
 }
 
-/*.flexcontainer {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: white;
-    color: black;
-}
-*/
 .gridcontainer {
     display: grid;
     grid-template-columns: 10px 1fr 1fr;
