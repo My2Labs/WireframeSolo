@@ -255,7 +255,7 @@ ul > li > a:visited {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1015px) {
     nav {
         flex-direction: column;
         flex-wrap: wrap;
