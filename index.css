@@ -25,15 +25,6 @@ nav {
     margin-bottom: 0;
 }
 
-/*.flexcontainer {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: white;
-    color: black;
-}
-*/
 .gridcontainer {
     display: grid;
     grid-template-columns: 10px 1fr 1fr;
@@ -113,7 +104,7 @@ p {
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     gap: 1em 3em;
-    padding: 10px;
+    padding: 20px;
     justify-content: start; 
     align-content: stretch; 
     justify-items: start; 
@@ -156,7 +147,7 @@ h1 {
 
 a:visited {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: gray;
     background-color: hsl(185, 50%, 32%);
     width: 120px;
     text-align: center;
@@ -164,9 +155,6 @@ a:visited {
     border-radius: 20px;
     padding: 10px;
     position:absolute;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, 90%);
 }
 
 .flexdiv {
@@ -217,6 +205,17 @@ p > a:link, a:visited {
     font-family: 'Montserrat', sans-serif;
     color: white;
     background-color: hsl(185, 50%, 32%);
+    width: 120px;
+    text-align: center;
+    align-items: stretch;
+    border-radius: 20px;
+    padding: 10px;
+    height: 20px;
+}
+
+ul > li > a:visited {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
     width: 120px;
     text-align: center;
     align-items: stretch;
