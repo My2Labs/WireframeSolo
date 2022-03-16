@@ -1,10 +1,3 @@
-html {
-    margin: 0px;
-    padding: 0px;
-    overflow: scroll;
-    min-height: 100vh;
-}
-
 nav {
     display: flex;
     flex-flow: row nowrap;
@@ -52,7 +45,17 @@ nav {
     color: black;
     margin-bottom: 0;
     flex-basis: content;
+    margin-left: 50px;
 }
+
+.hasbrologo {
+    width: 70px;
+    position:relative;
+    top: 3%;
+    left: 0%;
+    transform: translate(-5%, -30%);
+}
+
 
 ul {
     text-decoration: none;
@@ -70,7 +73,7 @@ ul {
 }
   
 a:link {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     text-decoration: none;
@@ -81,6 +84,8 @@ a:link {
     font-size: 14px;
     font-weight: 750;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 a:hover {
@@ -90,6 +95,14 @@ a:hover {
 p {
     color: black;
 }
+
+.spangrid > p {
+    color: black;
+    position: relative;
+    padding: 10px;
+    height: auto;
+}
+
 
 .heroimg {
     width:100%;
@@ -102,7 +115,7 @@ p {
 .maingrid {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: auto auto auto auto auto auto; 
     gap: 1em 3em;
     padding: 20px;
     justify-content: start; 
@@ -132,13 +145,14 @@ h1 {
 
 
 .herobutton {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     color: white;
     background-color: hsl(185, 50%, 32%);
     width: 120px;
     text-align: center;
     border-radius: 20px;
-    padding: 10px;
+    padding: 1px;
     position:absolute;
     top: 110%;
     left: 50%;
@@ -165,8 +179,9 @@ a:visited {
 h2 {
     font-family: 'Ropa Sans', sans-serif;
     color: #052D40;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 200;
+    padding-bottom: 20px;
 }
 
 .featuretitle {
@@ -224,20 +239,11 @@ ul > li > a:visited {
     height: 20px;
 }
 
-.hasbrologo {
-    width: 70px;
-    position:relative;
-    top: 3%;
-    left: 0%;
-    transform: translate(-5%, -30%);
-
-}
-
 .spangrid {
     display: grid;
     grid-template-columns: 1fr; 
-    grid-template-rows: .5fr 1fr .5fr; 
-    gap: 1px 1px; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 20px 5px; 
     justify-content: left;
     align-content: space-between;
     font-family: 'Ropa Sans', sans-serif;
@@ -249,38 +255,66 @@ ul > li > a:visited {
         flex-direction: column;
         flex-wrap: wrap;
         flex-basis: auto;
-        overflow: scroll;
+        overflow: auto;
     }
-    .flexdiv {
+    .maingrid {
+        display: grid;
+        grid-template-columns: auto; 
+        grid-template-rows: auto; 
+        gap: 1px 1px;
+        padding: 2px;
+        justify-content: start; 
+        align-content: normal; 
+        justify-items: start; 
+        align-items: normal; 
+      }
+      .spangrid > p > a:link {
+        color: white;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+      }
+      .features-1 {
+        grid-row: 2 / span 1;
+        grid-column: 1 / 1;
+      }
+    
+      .features-2 {
+        grid-row: 3 / span 1;
+        grid-column: 1 / 1;
+      }
+    
+      .features-3 {
+        grid-row: 4 / span 1;
+        grid-column: 1 / 1;
+      }
+    
+      .features-4 {
+        grid-row: 5 / span 1;
+        grid-column: 1 / 1;
+      }
+      .flexdiv {
+        display: flex;
+        position: absolute;
         flex-direction: column;
         flex-wrap: nowrap;
-        flex-basis: auto;
-        overflow: scroll;
-    }
-    .headergrid {
+      }
+      .headergrid {
         grid-row: 1 / span 1;
         grid-column: 1 / span 2;
-    }
-    h1 {
-        font-family: 'Ropa Sans', sans-serif;
-        font-size: 1em;
-        font-weight: 100;
-        color: black;
-        text-align: center;
-        position: relative;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        filter: brightness(100)
-    }
+      }
+      h1 {
+        display: none;
+      }
+
     .herobutton {
+        display: flex;
         font-family: 'Montserrat', sans-serif;
         color: white;
-        background-color: hsl(185, 50%, 32%);
         width: 120px;
         text-align: center;
         border-radius: 20px;
-        padding: 10px;
+        padding: 1px;
         position:relative;
         top: 110%;
         left: 50%;
