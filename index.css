@@ -175,6 +175,11 @@ a:visited {
     display: block;
     text-align: center;
 }
+.flexdiv2 {
+    display: block;
+    text-align: left;
+  }
+
 
 h2 {
     font-family: 'Ropa Sans', sans-serif;
@@ -294,11 +299,15 @@ ul > li > a:visited {
         grid-column: 1 / 1;
       }
       .flexdiv {
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        display:inline;
+        position: relative;
       }
+      .flexdiv2 {
+        display: inline;
+        position: relative;
+        text-align: left;
+      }
+  
       .headergrid {
         grid-row: 1 / span 1;
         grid-column: 1 / span 2;
@@ -316,8 +325,12 @@ ul > li > a:visited {
         border-radius: 20px;
         padding: 1px;
         position:relative;
-        top: 110%;
-        left: 50%;
         transform: translate(-50%, -50%);
     }
+    .flexdiv > p > a:link {
+        color: white;
+        justify-content: center;
+        align-items: center;
+      }
+
 }
